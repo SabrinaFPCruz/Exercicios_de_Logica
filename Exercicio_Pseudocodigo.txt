@@ -1,0 +1,21 @@
+algoritmo mostrar_nome;
+inicio
+	Escreva"Meu nome é Sabrina"
+	Escreva"Meu nome é Maria"
+	Escreva"Meu nome é Lucia"
+fim	
+
+algoritmo media;
+Var
+N1, N2, Media :Real
+aluno :literal
+inicio
+	Escreva("Digite o nome do aluno")
+	Leia aluno
+	Escreva ("Digite a primeira nota")
+	Leia N1
+	Escreva ("Digite a segunda nota")
+	Leia N2
+      Media=(N1 + N2)/2
+	Escreva("A media" aluno "foi", Media)
+fim
