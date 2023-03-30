@@ -7,8 +7,8 @@ fim
 
 algoritmo media;
 Var
-N1, N2, Media :Real
-aluno :literal
+	N1, N2, Media :Real
+	aluno :literal
 inicio
 	Escreva("Digite o nome do aluno")
 	Leia aluno
@@ -16,6 +16,17 @@ inicio
 	Leia N1
 	Escreva ("Digite a segunda nota")
 	Leia N2
-      Media=(N1 + N2)/2
+	Media=(N1 + N2)/2
 	Escreva("A media" aluno "foi", Media)
+fim
+
+algoritmo nomes;
+var
+	nome1, nome 2 :literal
+inicio
+	escreva("Digite 1° Nome")
+	leia nome1
+	escreva("Digite 2° Nome")
+	leia nome2
+	escreva(nome1, nome2)
 fim
