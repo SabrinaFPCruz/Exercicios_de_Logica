@@ -1,4 +1,4 @@
-num = float(input("Diigite um número entre  1 e 12: "))
+num = float(input("Digite um número entre  1 e 12: "))
 if num > 0 <= 12:
     if num == 1:
         print("Janeiro")
