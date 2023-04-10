@@ -3,7 +3,9 @@ inicio
 	Escreva"Meu nome é Sabrina"
 	Escreva"Meu nome é Maria"
 	Escreva"Meu nome é Lucia"
-fim	
+Fimalgoritmo	
+
+/_______________________________________________________/
 
 algoritmo media;
 Var
@@ -18,7 +20,9 @@ inicio
 	Leia N2
 	Media=(N1 + N2)/2
 	Escreva("A media" aluno "foi", Media)
-fim
+Fimalgoritmo
+
+/_______________________________________________________/
 
 algoritmo nomes;
 var
@@ -29,4 +33,99 @@ inicio
 	escreva("Digite 2° Nome")
 	leia nome2
 	escreva(nome1, nome2)
-fim
+Fimalgoritmo
+
+/_______________________________________________________/
+
+mediaAluno;
+var
+
+media: inteiro
+
+inicio
+
+escreva("Digite a média do aluno")
+leia media
+se media >= 7 então
+escreva("Aprovado")
+se media >= 5 então
+escreva("Recuperação")
+senão
+escreva("Reprovado")
+fimse
+
+Fimalgoritmo
+
+/_______________________________________________________/
+
+ExemploVetor;
+var
+
+numero: vetor[0..3] de inteiro
+
+inicio
+
+numero [0]<-10
+escreva("O número da posição 0 do vetor é: " numero[0])
+
+Fimalgoritmo
+
+/_______________________________________________________/
+
+contadorVetor;
+var
+
+numero: vetor[0..3] de inteiro
+contador: inteiro
+
+inicio
+
+para contador de 0 ate 3 faca
+	escreva("Digite um número: ")
+	leia(numero[contador])
+	fimpara
+para contador de 0 ate 3 faca
+	escreval("O número da posição ", contador, "é: ", numero[contador])
+	fimpara
+
+Fimalgoritmo
+
+/_______________________________________________________/
+
+nomesVetor;
+var
+
+nome: vetor[0..4] de caractere
+contador: inteiro
+
+inicio
+
+para contador de 0 ate 4 faca
+	escreva("Digite um nome: ")
+	leia(nome[contador])
+	fimpara
+para contador de 0 ate 4 faca
+	escreval("A posição do nome ", contador, "é: ", nome[contador])
+	fimpara
+
+Fimalgoritmo
+
+/_______________________________________________________/
+
+notasVetor;
+var
+
+notas: vetor[0..3] de real
+contador: inteiro
+
+inicio
+
+para contador de 0 ate 3 faca
+	escreva("Digite uma nota: ")
+	leia(notas[contador])
+	fimpara
+para contador de 0 ate 3 faca
+	escreval("A posição da nota ", contador, "é: ", notas[contador])
+	fimpara
+
+Fimalgoritmo
