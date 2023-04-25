@@ -1,3 +1,64 @@
+algoritmo soma_N1_N2;
+Var
+	N1, N2:real
+inicio
+	Escreva("Digite um numero:")
+	leia N1
+	Escreva("Digite outro numero:")
+	leia N2
+	soma=N1+N2
+	se soma > 20 então
+	somaMaior=soma+8
+	escreva("A soma dos valores deu maior que vinte, logo ele foi somado a 8 e deu", somaMaior)
+	se soma <= 20 então
+	subtr=soma-5
+	escreva("A soma dos valores deu menor que vinte, logo ele foi subtraido por 5 e deu", subtr)
+
+Fimalgoritmo	
+
+/_______________________________________________________/
+algoritmo positivo_negativo_nulo;
+Var
+	N:real
+inicio
+	Escreva("Digite um numero:")
+	leia N
+	se N > 0 então
+	escreva("Este numero:" N"é Positivo")
+	se n < 0 então
+	escreva("Este numero:" N"é Negativo")
+	senão
+	escreva("Este numero:" N"é Nulo")
+Fimalgoritmo	
+
+/_______________________________________________________/
+algoritmo par_impar;
+Var
+	numero:inteiro
+inicio
+	Escreva("Digite um numero:")
+	leia numero
+	se numero%2 ==0 então
+	escreva("Este numero:" numero"é Par")
+	senão
+	escreva("Este numero:" numero"é impar")
+Fimalgoritmo	
+
+/_______________________________________________________/
+algoritmo soma;
+Var
+	n1, n2, soma:inteiro
+inicio
+	Escreva("Digite o 1° numero:")
+	leia n1
+	Escreva("Digite o 2° numero:")
+	leia n2
+	soma=n1+n2
+	se soma > 10 então
+	escreva("A soma dos seus dois numeros deu" soma", logo esse numero é maior que 10")
+Fimalgoritmo	
+
+/_______________________________________________________/
 algoritmo mostrar_nome;
 inicio
 	Escreva"Meu nome é Sabrina"
@@ -6,7 +67,19 @@ inicio
 Fimalgoritmo	
 
 /_______________________________________________________/
+algoritmo numero>20;
+Var
+	numero:inteiro
+inicio
+	Escreva("Digite um numero: ")
+	Leia numero
+	se numero > 20 então
+	Escreva("O numero:" numero "é maior que 20")
+	senão
+	Escreva("O numero:"numero "é menor que vinte")
+Fimalgoritmo
 
+/_______________________________________________________/
 algoritmo media;
 Var
 	N1, N2, Media :Real
