@@ -344,18 +344,18 @@ for b in range(30):
 maior=valores[0]
 menor=valores[0]
 for c in range(30):
-    if c>maior:
-        maior=c
+    if valores[c]>maior:
+        maior=valores[c]
 for d in range(30):
-    if d<menor:
-        menor=d
+    if valores[d]<menor:
+        menor=valores[d]
 print(maior)
 print(menor)
 
 """quantos dos valores do vetor são maiores que a média desses valores"""
 for e in range(30):
     soma+=valores[e]
-    media=soma/30
+media=soma/30
 
 for f in range(30):
     if valores[f]>=media:
